@@ -1,0 +1,19 @@
+//style for the whole document
+article,aside,footer,header,hgroup,nav{display:block;}
+body {font-family: Verdana, Geneva, sans-serif; font-size:12px; color: #333; font-size:0.8em;}
+//various html semantic elements
+div#wrapper {width:80%; margin: 0 auto;}
+header, nav, footer {clear:both;}
+header,nav, footer, article, aside{margin:5px; border:1px solid #32a1ce; padding:10px; background-color:#eee;}
+article {width:80%;float:left; color:#8b008b;}
+aside {width:50%;float:left;}
+aside h2{text-align: center;}
+header{width: 80%}
+nav{width:80%;}
+nav h3{margin-left:30px; color:#db11fd}
+nav ol {margin:0; padding:0;}
+nav ol li {display:inline; margin-right:30px;}
+footer {font-size:0.8em; color:#db008b;}
+header hgroup {font-weight:bold; color:#ec119c}
+article hgroup {font-weight:normal;}
+aside hgroup {text-decoration:none;}
